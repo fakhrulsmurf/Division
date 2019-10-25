@@ -11,7 +11,7 @@ class Division
       Scanner in = new Scanner(System.in);
       x = in.nextInt();
       y = in.nextInt();
-      z = x + y;
+      z = x / y;
       System.out.println("Sum of entered integers = ");
       System.out.print(z);
    }
